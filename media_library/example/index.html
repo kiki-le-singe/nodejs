@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Demo : Media Library</title>
+</head>
+<body>
+	<div class="wrapper">
+		<form id="form" name="form" method="post" action="/upload" enctype="multipart/form-data">
+			<p><strong>Upload</strong></p>
+			<input type="file" id="files" name="files[]" multiple required>
+			<input type="submit" value="Send">
+		</form>
+		<div id="infos">
+		</div>
+	</div>
+
+	<script type="text/javascript" src="upload.js"></script>
+
+</body>
+</html>
